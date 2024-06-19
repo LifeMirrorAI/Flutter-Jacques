@@ -1,2 +1,2 @@
-# Flutter-Jacques
-# Flutter training for Jacques
+# Flutter-Jacques-Swanepoel
+# Flutter training for Jacques Swanepoel
