@@ -1,5 +1,8 @@
 void main() {
 
+    int x = 20;
+    int y = 7;
+
     if(x == 20 && y == 7) {
         print('true');
     } else {
