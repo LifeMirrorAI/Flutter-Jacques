@@ -11,6 +11,10 @@ abstract class LMBase {
         print('LMBase');
     }
 
+    log2() {
+        print('LMBase.log2');
+    }
+
     output() {
         print('Log Level: $logLevel');
     }

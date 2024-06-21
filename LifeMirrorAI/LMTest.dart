@@ -13,6 +13,12 @@ class TestClass1 extends LMBase {
         super.log();
     }
 
+    @override
+    log2() {
+        print('TestClass1');
+        super.log2();
+    }
+
 }
 
 class TestClass2 extends LMBase {
@@ -27,6 +33,13 @@ class TestClass2 extends LMBase {
         super.log();
     }
     
+    @override
+    log2() {
+        print('TestClass2');
+        super.log2();
+    }
+
+
 }
 
 
@@ -41,4 +54,12 @@ void main() {
     test2.output();
     test2.log();
 
+    printLog(test1);
+    printLog(test2);
+
 }
+
+void printLog(LMBase base) {
+    base.log2();
+}
+
